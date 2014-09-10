@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<bbc>
+    <local>
+        <model>
+            <mklink from="{main_project}/scenes/{process}/{login}" to="{local_project}/scenes"/>
+        </model>
+        <texture>
+            <mklink from="{main_project}/scenes/{process}/{login}" to="{local_project}/scenes"/>
+            <mklink from="{main_project}/sourceimages/{login}" to="{local_project}/sourceimages"/>
+        </texture>
+        <rig>
+            <mklink from="{main_project}/scenes/{process}/{login}" to="{local_project}/scenes"/>
+        </rig>
+        <animation>
+            <mklink from="{main_project}/scenes/{process}/{login}" to="{local_project}/scenes"/>
+        </animation>
+        <effect>
+            <mklink from="{main_project}/scenes/{process}/{login}" to="{local_project}/scenes"/>
+        </effect>
+        <lighting>
+            <mklink from="{main_project}/scenes/{process}/{login}" to="{local_project}/scenes"/>
+            <mklink from="{main_project}/sourceimages/final" to="{local_project}/sourceimages/final"/>
+            <mklink from="{main_project}/cache/alembic" to="{local_project}/cache/alembic"/>
+        </lighting>
+    </local>
+    <leader>
+            <model>
+            <mklink from="{main_project}/scenes/{process}" to="{leader_project}/scenes"/>
+        </model>
+        <texture>
+            <mklink from="{main_project}/scenes/{process}" to="{leader_project}/scenes"/>
+            <mklink from="{main_project}/sourceimages" to="{leader_project}/sourceimages"/>
+        </texture>
+        <rig>
+            <mklink from="{main_project}/scenes/{process}" to="{leader_project}/scenes"/>
+        </rig>
+        <animation>
+            <mklink from="{main_project}/scenes/{process}" to="{leader_project}/scenes"/>
+        </animation>
+        <effect>
+            <mklink from="{main_project}/scenes/{process}" to="{leader_project}/scenes"/>
+        </effect>
+        <lighting>
+            <mklink from="{main_project}/scenes/{process}" to="{leader_project}/scenes"/>
+            <mklink from="{main_project}/sourceimages/final" to="{leader_project}/sourceimages/final"/>
+            <mklink from="{main_project}/cache/alembic" to="{leader_project}/cache/alembic"/>
+        </lighting>
+    </leader>
+</bbc>
